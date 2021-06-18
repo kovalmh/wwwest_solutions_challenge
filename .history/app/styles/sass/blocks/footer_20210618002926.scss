@@ -1,0 +1,83 @@
+.footer {
+  margin-top: 96px;
+  &-first-part {
+    padding: 82px 75px;
+    border-top: 2px solid #eef0f4;
+  }
+  &-second-part {
+    border-top: 2px solid #eef0f4;
+    color: #a3adba;
+    &-wrapper {
+      padding: 50px 0 60px;
+    }
+  }
+  &-text {
+    color: $header;
+    font-size: 34px;
+    font-family: $headerfont;
+    font-weight: 700;
+  }
+  &-email {
+    color: #2e75ff;
+  }
+  &-number {
+    color: #45494f;
+  }
+  &-logo img {
+    margin-top: -50px;
+  }
+}
+
+.contact {
+  width: 306px;
+  padding: 15px 0;
+  background: linear-gradient(180deg, #0c5cd6 0%, rgba(0, 56, 140, 0) 100%),
+    #004fc7;
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: $headerfont;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 4px rgba(48, 67, 133, 0.5);
+  border-radius: 12px;
+  &::before {
+    content: "";
+    width: 79px;
+    height: 35px;
+    position: relative;
+    background-image: url("../../../images/src/Arrow\ 4.svg");
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .footer-text {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    &-first-part {
+      padding: 0 0 10px 0;
+      border: 0;
+    }
+    &-text {
+      margin-top: 27px;
+      font-size: 20px;
+    }
+    &-contact {
+      margin-top: 32px;
+    }
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .footer-second-part {
+    background: #fbfbfc;
+    &-wrapper {
+      padding-bottom: 50px;
+    }
+    :last-child p:first-of-type {
+      margin-bottom: 0;
+    }
+  }
+}

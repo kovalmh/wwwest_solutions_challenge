@@ -1,0 +1,10 @@
+.footer {
+    border-top: 2px solid #EEF0F4;
+    margin-top: 96px;
+    &-first-part {
+        margin-top: 82px;
+    }
+    &-text {
+        color: $header
+    }
+}

@@ -1,0 +1,44 @@
+.section-fourth {
+  margin-top: 100px;
+}
+
+.fth {
+  &-sec-info {
+    padding-left: 10px;
+  }
+  &-sec-text {
+    text-align: left;
+    line-height: 1.8;
+    margin-top: 50px;
+    span {
+      font-weight: 700;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .fth {
+    &-flex-wrapper {
+      flex-direction: column;
+      h3 {
+          text-align: center;
+      }
+    }
+    &-sec-image {
+        margin-top: -50px;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1325px) {
+  .fth {
+    &-flex-wrapper {
+      flex-wrap: nowrap;
+    }
+    &-sec-image {
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}

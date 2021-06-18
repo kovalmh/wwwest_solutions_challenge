@@ -1,0 +1,23 @@
+.footer {
+    border-top: 2px solid #EEF0F4;
+    margin-top: 96px;
+    &-first-part {
+        margin-top: 82px;
+    }
+    &-text {
+        color: $header;
+        font-size: 25px;
+        font-family: $headerfont;
+        font-weight: 700;
+    }
+    &-email {
+        color: #2E75FF;
+    }
+    // &-contact {
+    //    padding-left: 90px;
+    // }
+}
+
+.contact {
+    
+}

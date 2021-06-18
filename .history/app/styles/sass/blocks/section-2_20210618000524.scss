@@ -1,0 +1,33 @@
+.s-sec-wrapper {
+    display: flex;
+    margin-top: 140px;
+    flex-wrap: wrap;
+}
+
+.s-sec-info {
+    text-align: left;
+}
+
+.s-sec-text {
+    margin-top: 23px;
+    line-height: 1.8;
+    span {
+        font-weight: 700;
+        color: #020303;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .s-sec-info, .s-sec-image {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-second {
+        margin-top: -60px;
+    }
+    .s-sec-info {
+        margin-top: 40px;
+    }
+}
